@@ -6,6 +6,7 @@
 /\__/ /_| |_| |  | || |   | |____| |___     /\__/ / | | || |___| |____| |____
 \____/ \___/\_|  |_/\_|   \_____/\____/     \____/\_| |_/\____/\_____/\_____/
 ```
+![Dennis_Richie_quote](https://i.ibb.co/DCvK9r7/Untitled.png)
 # <---------Learning Objectives--------->
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 * _Who designed and implemented the original Unix operating system
