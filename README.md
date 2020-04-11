@@ -7,7 +7,7 @@
 \____/ \___/\_|  |_/\_|   \_____/\____/     \____/\_| |_/\____/\_____/\_____/
 ```
 # <---------Learning Objectives--------->
-*At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 * _Who designed and implemented the original Unix operating system
 * _Who wrote the first version of the UNIX shell
 * _Who invented the B programming language (the direct predecessor to the C programming language)
@@ -21,5 +21,4 @@
 * _How does the shell use the PATH to find the programs
 * _How to execute another program with the execve system call
 * _How to suspend the execution of a process until one of its children terminates
-* _What is EOF / “end-of-file”?
-* 
+* _What is EOF / “end-of-file”?10
