@@ -14,5 +14,5 @@ char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
 char *get_input(char ***argv, int interactive, int *last_exit);
 void Throw_Error(char *command, int Line, char *pr_Name, int interactive);
-char *_itoi(long long num);
+char *_itoi(int num);
 #endif
