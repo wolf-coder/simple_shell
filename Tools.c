@@ -101,10 +101,10 @@ char *str_concat(char *s1, char *s2)
  *
  *Return:String.
 */
-char *_itoi(long long num)
+char *_itoi(int num)
 {
-	long long num_tmp, div = 1;
-	long long i = 0, j = 0, tmp_i;
+	int num_tmp, div = 1;
+	int i = 0, j = 0, tmp_i;
 	char *str_num = NULL;
 
 	num_tmp = num;
