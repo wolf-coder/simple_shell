@@ -18,9 +18,8 @@ int main(int ac, char **av)
 	while (1)
 	{
 		argv[0] = get_input(&argv, interactive, &last_exit);
-		if (argv[0][0] != '\n')
+		if (argv[0] != NULL)
 		{
-			argv[0][strlen(argv[0]) - 1] = '\0';
 			argv[1] = NULL;
 			frk = fork();
 			if (frk == -1)
