@@ -12,7 +12,7 @@ char *get_input(char ***argv, int interactive, int *last_exit)
 	char *line = NULL;
 	size_t len = 0;
 	ssize_t  nread;
-	const char delim[] = " \n\t\r\a\v";
+	const char delim[] = " \n\t";
 
 	if (interactive)
 		_puts("#cisfun$ ");
@@ -25,7 +25,7 @@ char *get_input(char ***argv, int interactive, int *last_exit)
 		free(*argv);
 		exit(*last_exit);
 	}
-	if (strcmp(line, "exit\n") == 0)
+	if (_strcmp(line, "exit\n") == 0)
 	{
 		free(line);
 		free(*argv);
@@ -33,6 +33,7 @@ char *get_input(char ***argv, int interactive, int *last_exit)
 	}
 
 	*argv[0] = _strdup(strtok(line, delim));
+
 	free(line);
 	return (*argv[0]);
 }
