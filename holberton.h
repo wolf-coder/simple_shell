@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <string.h>
-
+int _strcmp(char *s1, char *s2);
 int _putchar(char c);
 void _puts(char *str);
 char *_strdup(char *str);
