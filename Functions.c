@@ -12,7 +12,7 @@ char *get_input(char ***argv, int interactive, int *last_exit)
 	char *line = NULL;
 	size_t len = 0;
 	ssize_t  nread;
-	const char delim[] = " \n";
+	const char delim[] = " \n\t\r\a\v";
 
 	if (interactive)
 		_puts("#cisfun$ ");
